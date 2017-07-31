@@ -56,6 +56,8 @@ This is the current difference in my annotated version (+added -removed):
 + victimising
 ```
 
+Currently the main change is to add more British variations as much of my source data tends to be British in origin.
+
 ## Demo
 ```
 "use strict";
