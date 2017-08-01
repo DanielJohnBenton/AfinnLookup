@@ -2479,5 +2479,5 @@ exports["_zealous"] = 2;
 exports.Score = function(word)
 {
 	word = word.toLowerCase();
-	return ((typeof(this["_"+ word] != "undefined")) ? this["_"+ word] : 0)
+	return ((typeof(this["_"+ word]) != "undefined") ? this["_"+ word] : 0)
 }

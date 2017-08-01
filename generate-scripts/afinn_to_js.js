@@ -18,7 +18,7 @@ for(let i in data)
 output += "\nexports.Score = function(word)\n"
 		+"{\n"
 		+"\tword = word.toLowerCase();\n"
-		+"\treturn ((typeof(this[\"_\"+ word] != \"undefined\")) ? this[\"_\"+ word] : 0)\n"
+		+"\treturn ((typeof(this[\"_\"+ word]) != \"undefined\") ? this[\"_\"+ word] : 0)\n"
 		+"}";
 
 __fs.writeFileSync("afinn-lookup.js", output, "utf8");
