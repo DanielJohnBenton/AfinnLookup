@@ -55,6 +55,7 @@ This is the current difference in my annotated version (+added -removed):
 + victimises
 + victimising
 ```
+(list generated [automatically](https://github.com/DanielJohnBenton/AfinnLookup/blob/master/generate-scripts/compare_amended.js))
 
 Currently the main change is to add more British variations as much of my source data tends to be British in origin.
 
