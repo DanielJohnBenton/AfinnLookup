@@ -5,10 +5,10 @@ A useful library for sentiment analysis that scores words using the [AFINN-111](
 ## Usage
 You probably want to use the `dist-normal` version for the original AFINN-111 list.
 
-Once you have `afinn-lookup.js` in your project folder, use:
+Once you have `afinn-lookup.js` in your `node_modules` folder, use:
 
 ```
-let __afinn = require("./afinn-lookup");
+let __afinn = require("afinn-lookup");
 ```
 
 Once you have this you can score words like this:
@@ -55,6 +55,7 @@ This is the current difference in my annotated version (+added -removed):
 + victimises
 + victimising
 ```
+(list generated [automatically](https://github.com/DanielJohnBenton/AfinnLookup/blob/master/generate-scripts/compare_amended.js))
 
 Currently the main change is to add more British variations as much of my source data tends to be British in origin.
 
@@ -101,3 +102,6 @@ console.log("---");
 console.log("SANITISED: "+ MarkWords(words_sanitised)); // SANITISED: Be wise as thou art <cruel< do not press My tongue-tied patience with too much <disdain<
 // =========================================================================================
 ```
+
+## Acknowledgements
+- [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) word-sentiment list ([paper](https://arxiv.org/pdf/1103.2903v1.pdf)) - Finn Årup Nielsen
