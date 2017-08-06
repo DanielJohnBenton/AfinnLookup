@@ -63,7 +63,7 @@ Currently the main change is to add more British variations as much of my source
 ```
 "use strict";
 
-let __afinn = require("./afinn-lookup");
+let __afinn = require("afinn-lookup");
 
 // normal usage
 console.log("'wonderful': "+ __afinn.Score("wonderful")); // 'wonderful': 4
