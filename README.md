@@ -102,6 +102,9 @@ console.log("---");
 console.log("SANITISED: "+ MarkWords(words_sanitised)); // SANITISED: Be wise as thou art <cruel< do not press My tongue-tied patience with too much <disdain<
 // =========================================================================================
 ```
+<<<<<<< HEAD
 
 ## Acknowledgements
 - [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) word-sentiment list ([paper](https://arxiv.org/pdf/1103.2903v1.pdf)) - Finn Årup Nielsen
+=======
+>>>>>>> origin/master
